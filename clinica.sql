@@ -2,7 +2,7 @@ create database clinica3
 go
 use clinica3
 go
-create table Medico(
+create table medico(
 IdMedico				int			 not null,
 crm						varchar(255) not null,
 nome					varchar(255) not null,
@@ -17,7 +17,7 @@ primary key(IdMedico)
 )
 
 go
-create table Paciente (
+create table paciente (
 IdPaciente				int				not null,
 nome					varchar(255)    not null,
 logradouro				char(255)       not null,
